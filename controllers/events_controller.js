@@ -57,7 +57,7 @@ events.put('/:id', async (req, res) => {
     }
 });
 
-// DELETE A BAND
+// DELETE A EVENT
 events.delete('/:id', async (req, res) => {
     try {
         const deletedEvents = await Event.destroy({
